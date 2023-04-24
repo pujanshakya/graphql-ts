@@ -1,0 +1,30 @@
+{
+  "name": "graphql-server-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc",
+    "start": "npm run compile && node ./dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "typescript": "^5.0.3"
+  },
+  "dependencies": {
+    "@apollo/server": "^4.6.0",
+    "@graphql-tools/schema": "^9.0.17",
+    "@types/lodash": "^4.14.192",
+    "express-http-context": "^1.2.4",
+    "graphql": "^16.6.0",
+    "lodash": "^4.17.21",
+    "mongoose": "^7.0.4",
+    "node-match-path": "^0.6.3",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.1"
+  }
+}
